@@ -1,0 +1,241 @@
+.,English
+quest.name,The Shadow Rune - Act 1 - The Cardinal's Plight - Encounter 2
+quest.description,A Valkryie version of the Shadow Rune Campaign scenario. A two encounter scenario to rescue Cardinal Koth in order to obtain the Staff of Light.\n\nThe morale counter and KOs should not used in this game.\n\nVersion 1.0
+quest.authors,Fantasy Flight Games\n\nProgrammed by HobbesLionheart
+EventPlaceTiles.text,Place tiles 4A, 9A, 14A, 23A, one extender, two end caps, the entrance and exit accordingly.
+EventPlaceTiles.button1,Continue
+EventAssignZombieValue0.text,We recorded that 0 zombies escaped. 
+EventAssignZombieValue0.button1,Continue
+EventAssignZombieValue1.text,We recorded that 1 zombies escaped. 
+EventAssignZombieValue1.button1,Continue
+EventAssignZombieValue2.text,We recorded that 2 zombies escaped. 
+EventAssignZombieValue2.button1,Continue
+EventZombiesEscaped.text,How many zombies escaped?
+Event2EStart.button1,Continue
+EventAssignZombieValue3.text,We recorded that 3 zombies escaped. 
+EventAssignZombieValue3.button1,Continue
+EventAssignZombieValue4.text,We recorded that 4 zombies escaped. 
+EventAssignZombieValue4.button1,Continue
+EventWipetheBoard.text,Remove all tiles and tokens. Any damage your heroes sustained will be kept, but fatigue is removed. You might want also to force activations of existing hero and monster turns to start afresh.
+EventWipetheBoard.button1,Continue
+EventScenarioStart.text,This business with the Overlord is ruddy bad," says Baron Greigory through his white mustache. "That chap who was murdered when you first came to town, he wasn't just anyone. That was Viceroy Pellin. He was a hero like you, in his younger days. He and his fellows, they called themselves the Shadow Binders.
+EventScenarioStart.button1,Continue
+EventNoMorale.text,Lord Merick kills Cardinal Koth and steals the staff for himself.
+EventNoMorale.button1,End of Quest
+EventCheckforRespawn.button1,Continue
+EventPlaceTombSearchToken.text,Place one of the set aside search token here. The Rune Key might be located in this search token. 
+EventPlaceTombSearchToken.button1,Continue
+ActivationZombiesAttackCardinal.ability,Only the Zombies are able to attack the Cardinal.
+ActivationZombiesAttackCardinal.master,{action} Engage Cardinal Koth\n{action} Attack
+ActivationZombiesAttackCardinal.minion,{action} Engage Cardinal Koth\n{action} Attack
+SpawnLibraryZombies.text,Place a Master Zombie and {var:%ZombiesEscaped} zombie minions. These are the only creatures that can attack Cardinal Koth.
+SpawnLibraryZombies.button1,Continue
+CustomMonsterLibraryZombies.monstername,Faithful Zombies
+CustomMonsterLibraryZombies.info,These zombies are the faithful resurrected by Lord Merick.
+EventLibraryDoorOpened.text,The Cardinal holds aloft a staff that glows with a bright light. "Thank Kellos you're here," he says. "Quickly, let's get out of here."
+EventLibraryDoorOpened.button1,Continue
+Spawn2ELordMerick.text,Lord Merick Farrow appears trying to stop you from escaping.
+Spawn2ELordMerick.button1,Continue
+Spawn2EZombieReinforcements.text,A zombie is placed on the entrance respecting group limits.
+Spawn2EZombieReinforcements.button1,Continue
+EventLibrarySetUp.text,While you cannot enter the Library, you do hear Cardinal Koth. Place the Library (tile 13B), an end cap, and a person tile representing Cardinal Koth.
+EventLibrarySetUp.button1,Continue
+TokenCardinalKothEscaping.text,This is Cardinal Koth. Treat Cardinal Koth as a hero with the following exceptions. He cannot recover {heart} by normal means (see "The Altar") and he may only be attacked by zombies. He cannot perform actions until the heroes come to rescue him. When a hero ends his turn adjacent to Cardinal Koth, he is rescued. Once Rescued at the end of the last hero turn each round, Cardinal Koth performs a single move action. Koth cannot perform other actions.\n\nStats: 16 {heart} 0 {fatigue} Defense: 2 gray dice Speed: 3\n{might}: 2 {will}: 4 {knowledge}: 4 {awareness}: 2
+TokenCardinalKothEscaping.button1,Reached the Entrance
+TokenCardinalKothEscaping.button2,Died
+EventPlaceDoortoLibrary.text,Place a door to the Library. You cannot open the door until you find the Rune Key. 
+EventPlaceDoortoLibrary.button1,Continue
+EventPlaceAltar.text,Place a white objective token here. This is the Altar. It is only way to heal Cardinal Koch and keep him alive until you rescue him. Click on the token for more details.
+EventPlaceAltar.button1,Continue
+EventAddChapelSearchToken.text,Place a search token here.
+EventAddChapelSearchToken.button1,Continue
+SpawnChapelOpenGroup.text,Flesh Moulders roam the chapel. Place Flesh Moulders in this area respecting group limits. 
+SpawnChapelOpenGroup.button1,Continue
+EventFoundRuneKeyTomb.text,You found the Rune Key. You can now enter the Library.
+EventFoundRuneKeyTomb.button1,Continue
+EventFoundRuneKeyStairs.text,You found the Rune Key. You can now enter the Library.
+EventFoundRuneKeyStairs.button1,Continue
+EventStartEncounter2.text,You descend into the chapel. The cathedral seems unnaturally still and dark. Above the door, carved in stone, you see the words "The Righteous Have Nothing to Fear From the Faithless" - that must be what the initiate was referring to, that Koth could only be harmed by the faithful. \n\nThen you hear the scraping of a stone and a deathly moan. Lord Merick is still raising zombies, this time from their burial chambers beneath the cathedral floor -- faithful men, now enslaved to the Overlord's will? You only have moments to find a way through the locked door to the Cardinal's library and get him out alive.
+EventStartEncounter2.button1,Continue
+EventPlaceTiles2E.text,Place the Entrance tile, 6B, 16B, 17B, 28B together. Set aside tiles 10B, 13B, and 19B. Also set aside one ordinary and one unique search token.
+EventPlaceTiles2E.button1,Continue
+EventPlaceLibrarySearchToken.text,Place a search token here.
+EventPlaceLibrarySearchToken.button1,Continue
+EventStairsDoor.text,Place a door here. This is the door to the Stairs where the Rune Key might be located. 
+EventStairsDoor.button1,Continue
+EventDoorTomb.text,Place a door here. This is the door to the Tomb where the Rune Key might be located. 
+EventDoorTomb.button1,Continue
+Event2EObjectives.text,Your objective is to find the Rune Key, rescue Cardinal Koth from the Library and move him to the entrance. You fail if Cardinal Koth dies. Click on his token for details on his abilities and stats.
+Event2EObjectives.button1,Continue
+Event2ELordMerickDefeated.text,With a flicker, Lord Merick fades from view, into a shadowy apparition. His voice seems to come from behind a thick curtain: "You're becoming quite a nuisance, heroes!" Fuming, the evil lord can only observe.
+Event2ELordMerickDefeated.button1,Continue
+TokenCardinalKoth.text,This is Cardinal Koth. Treat Cardinal Koth as a hero with the following exceptions. He cannot recover {heart} by normal means (see "The Altar") and he may only be attacked by zombies. He cannot perform actions until the heroes come to rescue him. When a hero ends his turn adjacent to Cardinal Koth, he is rescued. Once Rescued at the end of the last hero turn each round, Cardinal Koth performs a single move action. Koth cannot perform other actions.\n\nStats: 16 {heart} 0 {fatigue} Defense: 2 gray dice Speed: 3\n{might}: 2 {will}: 4 {knowledge}: 4 {awareness}: 2
+TokenCardinalKoth.button1,Continue
+EventHeroesVictory.text,Outside, Koth lifts the Staff of Light aloft. It flares like a second sun, and when the light fades the Overlord's minions are gone. Koth presents the staff to you.\n\n"Thirty years ago, my friends and I used this staff to help us bind Gryvorn of the Shadows. Now it is yours" Then he lifts his palm and the flame of Kellos flares to life. "Go with Kellos' blessing, faithful. Bring the Light into dark places." 
+EventHeroesVictory.button1,Continue
+EventRewardsHeroesWin.button1,Continue
+EventOLWonRewards.text,Each player gains 1 XP.
+EventOverlordVictory.text,"""I'll take that," says Lord Merick. He gestures and the Staff of Light flies from Koth's corpse and up into his hands. Instantly, the lights goes out replaced by a nimbus of shadow. "Thanks for the help," With a smirk, the evil lord raps the butt of his new staff against the stone floor and vanishes in a flash of shadow..
+EventOverlordVictory.button1,Continue
+EventNoRuneKeyStairs.text,You didn't find the Rune Key. Draw a search card and remove this token.
+EventNoRuneKeyStairs.button1,Continue
+DoorTombDoor.text,This door leads to the Tombs.
+DoorTombDoor.button1,{action} Open door
+EventTombDoorOpened.button1,Continue
+EventTombDoorOpened.text,You opened the door to the Tombs. Place tile 10B and an end cap here.
+SpawnTombOpenGroup.text,Barghest stand ready guarding the room. Place Barghest according to group limits.
+SpawnTombOpenGroup.button1,Continue
+DoorStairs.button1,{action} Open Door
+DoorStairs.text,This door leads to the Stairs. 
+EventStairsDoorOpen.text,You open the door to the Stairs where the Rune Key is potentially located. 
+EventStairsDoorOpen.button1,Continue
+EventPlaceStairsRuneKeySearch.text,Place one of the set aside search token here. The Rune Key might be located in this search token. 
+EventPlaceStairsRuneKeySearch.button1,Continue
+EventPlace4playerStairsSearchToken.button1,Continue
+EventPlace4playerStairsSearchToken.text,Place a search token here. 
+SpawnStairsOpenGroup.text,Cave Spiders roam the stairs. Place Cave Spiders in this area respecting group limits. 
+SpawnStairsOpenGroup.button1,Continue
+DoorLibraryDoorNoRuneKey.text,This is the Library door. It cannot be opened unless you have the Rune Key.
+DoorLibraryDoorNoRuneKey.button1,Continue
+DoorLibraryDoorRuneKeyHave.text,You can now open this door to the Library. 
+DoorLibraryDoorRuneKeyHave.button1,{action} Open Door
+SpawnTombSpawnLater.button1,Continue
+SpawnTombSpawnLater.text,Barghest spawn in the tomb. Add tiles 10B, an end cap, and search token. Remove the door. 
+SpawnStairsSpawnLater.text,Cave Spiders pop up in the stairs. Place Tile 19B, an end cap, a search token. Remove door to stairs.\n\nCave Spiders are placed according to group limits.
+SpawnStairsSpawnLater.button1,Continue
+TokenRuneKeyStairs.text,This is one of the potential areas that has the Rune Key.
+TokenRuneKeyStairs.button1,{action} Search
+EventUniqueTokenRightQQ.text,Is this an unique token?
+EventUniqueTokenRightQQ.button1,Yes
+EventUniqueTokenRightQQ.button2,No
+Token4PlayerSearchToken.text,In the rock, you spot something shiny.
+Token4PlayerSearchToken.button1,{action} Search
+EventSearch4PlayerSearchToken.text,Draw a search card and remove this token.
+EventSearch4PlayerSearchToken.button1,Continue
+EventPlace4playerRelicofDawnSearchTokens.text,Place a search token here.
+EventPlace4playerRelicofDawnSearchTokens.button1,Continue
+TokenRuneKeyTomb.text,This is one of the potential areas that has the Rune Key.
+TokenRuneKeyTomb.button1,{action} Search
+EventUniqueTokenLeftQQ.button1,Yes
+EventUniqueTokenLeftQQ.text,Is this an unique token?
+EventUniqueTokenLeftQQ.button2,No
+EventNoRuneKeyTomb.text,You didn't find the Rune Key. Draw a search card and remove this token.
+EventNoRuneKeyTomb.button1,Continue
+Event2EStairsSearchTokenSearched.text,You draw a search card. Remove this token.
+Event2EStairsSearchTokenSearched.button1,Continue
+TokenAltar.text,A hero adjacent to the Altar may attempt to activate it as an action. To do so, the hero tests {will}. If he passes, that hero rolls 1 red power die. Cardinal Koth recovers {heart} equal to the {heart} rolled on the red power die (regardless of where he is on the map) If he fails, there is no effect. \n\nThe Altar may only be successfully activated once per round.
+TokenAltar.button1,Continue
+Token2EChapelSearch.button1,{action} Search
+Token2EChapelSearch.text,There's something among the bones. Search here at your risk.
+EventSearchTokenExplore2E2.text,Draw a search card and remove this token.
+EventSearchTokenExplore2E2.button1,Continue
+Token2ELibrarySearchToken.text,Something interesting catches your eye.
+Token2ELibrarySearchToken.button1,{action} Search
+Event2ELibrarySearchTokenExplore.text,Draw a search card and remove this token.
+Event2ELibrarySearchTokenExplore.button1,Continue
+TokenStairsSearchToken.text,At the bottom of the stairs, you see something that fell.
+TokenStairsSearchToken.button1,{action} Search
+EventOLWin0.text,Have all the zombies been resurrected and have been killed or fled the board?
+EventOLWin0.button1,Yes
+EventOLWin0.button2,No
+EventZombiesEscaped.button1,0
+EventZombiesEscaped.button2,1
+EventZombiesEscaped.button3,2
+EventZombiesEscaped.button4,3
+EventZombiesEscaped.button5,4
+EventOverlordWin1E.text,That should do it" gloats Lord Merick as the last of his zombies shambles through the doors. "Prophecies and curses... ha! There's always a way around them." There is a flash of light and a puff of smoke, and t hen he is gone. \n\nFrom within the cathedral you hear the crash of breaking glass. The Cardinal is in danger
+CustomMonsterMerickFarrow.monstername,Lord Merick Farrow
+CustomMonsterMerickFarrow.info,Aftershock: When an adjacent hero attacks this monster, after the attack, the hero must test {will}. If s/he fails, s/he suffers 1 {fatigue}\n\n{surge} is activated in the following order:\n{surge} Wither: The target suffers 1 {fatigue}\n{surge} + 1 {heart}
+SpawnRandomGroup.text,Lord Merick is trying to stop you. Place {c:SpawnRandomGroup} here respecting group limits.
+SpawnRandomGroup.button1,Continue
+ActivationMerrickCustomActivation.ability,Resurrect Zombies: Test {knowledge}. If group limit reached, cannot resurrect zombies.\n\n{action} Ignite: Lord Merrick Farrow suffers 1 {heart} to perform an attack that targets all adjacent figures. Each figure rolls defense dice separately. Merick may not perform this action if suffering the {heart} would defeat him.
+ActivationMerrickCustomActivation.master,{action} Engage the closest Objective token\n{action} Resurrect a Zombie (Once per activation)\nIf two or more heroes are adjacent, {action} Ignite\n{action} Attack closest hero
+SpawnReinforcements.text,Reinforcements are coming. Spawn one {c:SpawnRandomGroup} respecting group limits.
+SpawnReinforcements.button1,Continue
+EventPlaceMysticDoor.text,This is the Mystic Door. This cannot be open until the Relic of Dawn is found. Lord Merick has line of sight through this door, but cannot move through the door. 
+SpawnReinforcements2.text,Reinforcements are coming. Spawn one {c:SpawnRandomGroup} respecting group limits.
+SpawnReinforcements2.button1,Continue
+ActivationZombieExit.ability,Zombies resurrected on this turn cannot be moved. Skip this activation if the only zombie activated had just been resurrected.
+ActivationZombieExit.minion,Engage towards exit\n(Zombies can only move once)\n\nIf current zombies are off the board, defeat the group.
+EventPlaceMysticDoor.button1,Continue
+EventFoundRelicofDawn1.text,You found the Relic of Dawn. Remove the search token and the mystic portal. 
+EventFoundRelicofDawn1.button1,Continue
+EventFoundRelicofDawn2.text,You found the Relic of Dawn. Remove the search token and the mystic portal. 
+EventFoundRelicofDawn2.button1,Continue
+EventIsittheRelicofDawn3.text,Check the bottom of the token. Is it unique?
+EventIsittheRelicofDawn3.button1,Yes
+EventIsittheRelicofDawn3.button2,No
+EventFoundRelicofDawn3.text,You found the Relic of Dawn. Remove the search token and the mystic portal. 
+EventFoundRelicofDawn3.button1,Continue
+EventPlaceYourHeroes.text,Place your heroes at the entrance.
+EventPlaceYourHeroes.button1,Continue
+SpawnFleshMoulder.text,Flesh Moulders gather to protect the Relic of Dawn.\n\nPlace Flesh Moulders in this area respecting group limits.
+SpawnFleshMoulder.button1,Continue
+SpawnLordMerrick.text,Lord Merick Farrow is attempting to raise the dead. He appears here.
+SpawnLordMerrick.button1,Continue
+EventIntroText3.button1,Continue
+EventIntroText3.text,Koth traveled with Pullin," says Greigory. "He's Cardinal, now; set himself up at the Cathedral to Kellos in the Carthmounts. Best hurry off and make sure he's alive. He's got the Staff of Light, too - might need it, wot
+EventRemoveZombieUL.button1,Continue
+EventRemoveZombieUL.text,Remove this token and put a zombie in its place.
+Token3SearchToken.text,You spot something on the ground. Would you like to search?
+Token3SearchToken.button1,{action} Search
+Token1of3RandomSearchToken.text,This is one of the possible locations of the Relic of Dawn.
+Token1of3RandomSearchToken.button1,{action} Search
+Token2of3RandomSearchToken.text,This is one of the possible locations of the Relic of Dawn.
+Token2of3RandomSearchToken.button1,{action} Search
+Token3of3RandomSearchToken.text,This is one of the possible locations of the Relic of Dawn.
+Token3of3RandomSearchToken.button1,{action} Search
+TokenULZombie.button2,No
+TokenULZombie.button1,Yes
+TokenULZombie.text,Did Lord Merrow resurrect this zombie?
+EventIntroText2.text,We don't think his death was happenstance," says Baron Zachareth, stroking his dapper beard. "This Overlord is clever, whoever he is. We have to assume he's after all the Shadow Binders.
+EventIntroText2.button1,Continue
+EventIntrotext4.button1,Continue
+EventIntrotext4.text,As you approach the Cathedral, the day grows dark. Suspiciously, you ready your weapon and nearly kill the young initiate who calls to you from behind a rock. "Please, faithful! The Cathedral is besieged. The Cardinal invoked the Ward of Flame, but that Lord Merrick was already inside! He knows that Koth can only be harmed by a faithful man - he's raising the dead in our own graveyard and sending them to kill the Cardinal. You must find the Relic of Dawn to get through the ward and stop Lord Merrick before his zombies overcome Cardinal Koth.
+EventSetMonsters.button1,Continue
+EventSetMonsters.text,Place the random set of monsters
+EventPlacingthreeplayertokens.text,Place a search token here.
+EventPlacingthreeplayertokens.button1,Continue
+EventSearchPlayer3Token.text,Draw a random search card and remove this token.
+EventSearchPlayer3Token.button1,Continue
+EventRegularRelicofDawnSearchTokens.text,Gather three search tokens with one of them being a special search token. Randomize them then place them in the spots shown. The special search token is the Relic of Dawn.
+EventRegularRelicofDawnSearchTokens.button1,Continue
+EventPlaceZombieTokens.text,Place four objective tokens here to serve as grave sites for Lord Merick to attempt to resurrect. Click on the respective objective token when a zombie has been resurrected. When a zombie escapes the map, place a fatigue token on Lord Merick's card to track how many zombies escaped.
+EventPlaceZombieTokens.button1,Continue
+EventObjective.text,Your objective is to find the Relic of Dawn and kill Lord Merick before all the zombies he resurrects are killed or escape.
+EventObjective.button1,Continue
+EventRemoveToken1.text,Draw a search card, remove this search token, and continue searching.
+EventRemoveToken1.button1,Continue
+EventRemoveToken2.text,Draw a search card, remove this search token, and continue searching.
+EventRemoveToken2.button1,Continue
+EventRemoveToken3.text,Draw a search card, remove this search token, and continue searching.
+EventRemoveToken3.button1,Continue
+CustomMonsterGraveyardZombies.monstername,Graveyard Zombie
+CustomMonsterGraveyardZombies.info,-
+TokenURZombie.text,Did Lord Merrow resurrect this zombie?
+TokenURZombie.button1,Yes
+EventRemoveZombieUR.button1,Continue
+EventRemoveZombieUR.text,Remove this token and place a zombie in its place.
+EventRemoveZombieLR.text,Remove this token and place a zombie in its place.
+EventRemoveZombieLR.button1,Continue
+EventRemoveZombieLL.button1,Continue
+EventRemoveZombieLL.text,Remove this token and place a zombie in its place.
+TokenLRZombie.button1,Yes
+TokenLRZombie.text,Did Lord Merrow resurrect this zombie?
+TokenLRZombie.button2,No
+TokenURZombie.button2,No
+TokenLLZombie.text,Did Lord Merrow resurrect this zombie?
+TokenLLZombie.button1,Yes
+TokenLLZombie.button2,No
+EventHerosWin.button1,Continue
+EventHerosWin.text,In a puff of smoke, Lord Merick Farrow vanishes. His voice lingers, "Blast and damnation! I won't be beaten this easily, you meddling whelps. I'll be back!"\n\nFrom within the cathedral you hear the crash of breaking glass. No time to bask in your victory - the Cardinal is in danger!
+EventIsittheRelicofDawn1.text,Check the bottom of the token. Is it unique?
+EventIsittheRelicofDawn1.button1,Yes
+EventIsittheRelicofDawn1.button2,No
+EventIsittheRelicofDawn2.text,Check the bottom of the token. Is it unique?
+EventIsittheRelicofDawn2.button1,Yes
+EventIsittheRelicofDawn2.button2,No
+SpawnGraveyardZombies.button1,Continue
+EventOverlordWin1E.button1,Continue
+EventOLWonRewards.button1,Continue
+EventRewardsHeroesWin.text,Each player gains 1 XP. You receive the Staff of Light Relic.
